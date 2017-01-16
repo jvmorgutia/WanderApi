@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace WanderApi.UnitTest
+namespace jvmorgutia.Wander.WebApi.Tests
 {
     [TestClass]
     public class UnitTest1

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WanderApi.UnitTest")]
+[assembly: AssemblyTitle("jvmorgutia.Wander.WebApi.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WanderApi.UnitTest")]
+[assembly: AssemblyProduct("jvmorgutia.Wander.WebApi.Tests")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("1bc830c2-0244-4c78-9b93-4abc8b0e21fa")]
+[assembly: Guid("f156dfa8-5b02-48d9-9f8e-026e2d3566e1")]
 
 // Version information for an assembly consists of the following four values:
 //

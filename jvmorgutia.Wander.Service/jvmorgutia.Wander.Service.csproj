@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{70DD6605-7951-465A-AA9C-BEF0D8090002}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>jvmorgutia.Wander.Service</RootNamespace>
+    <AssemblyName>jvmorgutia.Wander.Service</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="LocationService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\jvmorgutia.Wander.Logic\jvmorgutia.Wander.Logic.csproj">
+      <Project>{5DA82390-E759-4F13-AC5F-CC3FD3E642A7}</Project>
+      <Name>jvmorgutia.Wander.Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\jvmorgutia.Wander.Contract\jvmorgutia.Wander.Contract.csproj">
+      <Project>{985F17C1-80EF-486C-8FE8-4700E148DE5B}</Project>
+      <Name>jvmorgutia.Wander.Contract</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

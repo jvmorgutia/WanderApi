@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jvmorgutia.Wander.WebApi", "jvmorgutia.Wander.WebApi\jvmorgutia.Wander.WebApi.csproj", "{4F7C7CFB-FC50-4628-B90F-ABCD6941F85F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jvmorgutia.Wander.WebApi.Tests", "jvmorgutia.Wander.WebApi.Tests\jvmorgutia.Wander.WebApi.Tests.csproj", "{F156DFA8-5B02-48D9-9F8E-026E2D3566E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jvmorgutia.Wander.Contract", "jvmorgutia.Wander.Contract\jvmorgutia.Wander.Contract.csproj", "{985F17C1-80EF-486C-8FE8-4700E148DE5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jvmorgutia.Wander.Data", "jvmorgutia.Wander.Data\jvmorgutia.Wander.Data.csproj", "{7029DFE4-8E00-4B3C-989D-D237677BB973}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jvmorgutia.Wander.Logic", "jvmorgutia.Wander.Logic\jvmorgutia.Wander.Logic.csproj", "{5DA82390-E759-4F13-AC5F-CC3FD3E642A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jvmorgutia.Wander.Service", "jvmorgutia.Wander.Service\jvmorgutia.Wander.Service.csproj", "{70DD6605-7951-465A-AA9C-BEF0D8090002}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F7C7CFB-FC50-4628-B90F-ABCD6941F85F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F7C7CFB-FC50-4628-B90F-ABCD6941F85F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F7C7CFB-FC50-4628-B90F-ABCD6941F85F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F7C7CFB-FC50-4628-B90F-ABCD6941F85F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F156DFA8-5B02-48D9-9F8E-026E2D3566E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F156DFA8-5B02-48D9-9F8E-026E2D3566E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F156DFA8-5B02-48D9-9F8E-026E2D3566E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F156DFA8-5B02-48D9-9F8E-026E2D3566E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{985F17C1-80EF-486C-8FE8-4700E148DE5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{985F17C1-80EF-486C-8FE8-4700E148DE5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{985F17C1-80EF-486C-8FE8-4700E148DE5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{985F17C1-80EF-486C-8FE8-4700E148DE5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7029DFE4-8E00-4B3C-989D-D237677BB973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7029DFE4-8E00-4B3C-989D-D237677BB973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7029DFE4-8E00-4B3C-989D-D237677BB973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7029DFE4-8E00-4B3C-989D-D237677BB973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA82390-E759-4F13-AC5F-CC3FD3E642A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA82390-E759-4F13-AC5F-CC3FD3E642A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA82390-E759-4F13-AC5F-CC3FD3E642A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA82390-E759-4F13-AC5F-CC3FD3E642A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70DD6605-7951-465A-AA9C-BEF0D8090002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70DD6605-7951-465A-AA9C-BEF0D8090002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70DD6605-7951-465A-AA9C-BEF0D8090002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70DD6605-7951-465A-AA9C-BEF0D8090002}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

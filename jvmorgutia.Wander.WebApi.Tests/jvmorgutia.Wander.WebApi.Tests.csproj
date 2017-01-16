@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1BC830C2-0244-4C78-9B93-4ABC8B0E21FA}</ProjectGuid>
+    <ProjectGuid>{F156DFA8-5B02-48D9-9F8E-026E2D3566E1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WanderApi.UnitTest</RootNamespace>
-    <AssemblyName>WanderApi.UnitTest</AssemblyName>
+    <RootNamespace>jvmorgutia.Wander.WebApi.Tests</RootNamespace>
+    <AssemblyName>jvmorgutia.Wander.WebApi.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -52,9 +52,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WanderApi\WanderApi.csproj">
-      <Project>{D49B5570-521F-43B9-B2C6-F1D431648824}</Project>
-      <Name>WanderApi</Name>
+    <ProjectReference Include="..\jvmorgutia.Wander.WebApi\jvmorgutia.Wander.WebApi.csproj">
+      <Project>{4F7C7CFB-FC50-4628-B90F-ABCD6941F85F}</Project>
+      <Name>jvmorgutia.Wander.WebApi</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
