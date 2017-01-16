@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -25,8 +25,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="WanderZoneRequestContract.cs" />
-    <Compile Include="WanderZoneResponseContract.cs" />
+    <Compile Include="ActivityLookupRequest.cs" />
+    <Compile Include="ActivityLookupResponse.cs" />
     <Compile Include="Models\WanderActivity.cs" />
     <Compile Include="Models\WanderTag.cs" />
     <Compile Include="Enumerations\Enumerations.cs" />
@@ -36,9 +36,6 @@
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Drawing" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Enumerations\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

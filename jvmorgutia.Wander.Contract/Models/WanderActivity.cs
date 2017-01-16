@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.Serialization;
 using System.Drawing;
-namespace jvmorgutia.Wander.Contract
+using System.Runtime.Serialization;
+
+namespace jvmorgutia.Wander.Contract.Models
 {
 	[DataContract]
 	[Serializable]

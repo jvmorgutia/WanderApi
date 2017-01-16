@@ -3,7 +3,7 @@
 namespace jvmorgutia.Wander.Contract
 {
 	[DataContract]
-	public class WanderZoneRequestContract
+	public class ActivityLookupRequest
 	{
 		[DataMember]
 		public long Latitude { get; set; }

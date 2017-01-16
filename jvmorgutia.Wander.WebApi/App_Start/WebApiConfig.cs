@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web.Http;
+﻿using System.Web.Http;
 
 namespace jvmorgutia.Wander.WebApi
 {
@@ -16,7 +13,7 @@ namespace jvmorgutia.Wander.WebApi
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
+                routeTemplate: "WanderApi/{controller}/{action}",
                 defaults: new { id = RouteParameter.Optional }
             );
         }
