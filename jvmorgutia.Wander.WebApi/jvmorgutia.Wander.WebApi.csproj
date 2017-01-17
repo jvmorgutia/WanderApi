@@ -110,6 +110,10 @@
       <Project>{985F17C1-80EF-486C-8FE8-4700E148DE5B}</Project>
       <Name>jvmorgutia.Wander.Contract</Name>
     </ProjectReference>
+    <ProjectReference Include="..\jvmorgutia.Wander.Logic\jvmorgutia.Wander.Logic.csproj">
+      <Project>{5da82390-e759-4f13-ac5f-cc3fd3e642a7}</Project>
+      <Name>jvmorgutia.Wander.Logic</Name>
+    </ProjectReference>
     <ProjectReference Include="..\jvmorgutia.Wander.Service\jvmorgutia.Wander.Service.csproj">
       <Project>{70dd6605-7951-465a-aa9c-bef0d8090002}</Project>
       <Name>jvmorgutia.Wander.Service</Name>

@@ -25,6 +25,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Configuration\ConfigurationSetting.cs" />
     <Compile Include="WanderActivityLogic.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -36,6 +37,9 @@
       <Project>{7029DFE4-8E00-4B3C-989D-D237677BB973}</Project>
       <Name>jvmorgutia.Wander.Data</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
