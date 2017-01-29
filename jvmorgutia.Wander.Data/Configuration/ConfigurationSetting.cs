@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace jvmorgutia.Wander.Logic.Configuration
+﻿namespace jvmorgutia.Wander.Data.Configuration
 {
     public class ConfigurationSetting
     {

@@ -10,7 +10,7 @@ namespace jvmorgutia.Wander.Contract.Models
 	public class WanderActivity
 	{
 		[DataMember]
-		public Bitmap Image { get; set; }
+		public Image Image { get; set; }
 
 		[DataMember]
 		public string Title { get; set; }

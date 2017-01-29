@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Web.Configuration;
 using System.Web.Http;
-using jvmorgutia.Wander.Logic.Configuration;
+using jvmorgutia.Wander.Data.Configuration;
 
 namespace jvmorgutia.Wander.WebApi
 {

@@ -25,6 +25,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="WanderActivityLogic.cs" />
     <Compile Include="WanderActivityService.cs" />
   </ItemGroup>
   <ItemGroup>

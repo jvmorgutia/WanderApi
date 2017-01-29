@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
-namespace jvmorgutia.Wander.Contract
+
+namespace jvmorgutia.Wander.Contract.Models
 {
 	[DataContract]
 	[Serializable]
